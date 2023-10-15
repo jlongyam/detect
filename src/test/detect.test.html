@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+  <title>test: detect</title>
+  <script src="../result.js"></script>
+</head>
+
+<body>
+  <script>
+    const detect = {}
+    detect.type = (input) => {
+      return Object.prototype.toString.call(input)
+    }
+    result.source = true
+    result.js(`
+      ${detect.type({})}
+      ${detect.type([])}
+      ${detect.type('')}
+      ${detect.type(null)}
+      ${detect.type(undefined)}
+      ${detect.type(/\\/g)}
+      ${detect.type(window)}
+      ${detect.type(document)}
+    `)
+  </script>
+</body>
+
+</html>

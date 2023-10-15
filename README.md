@@ -1,6 +1,6 @@
-# [repo-template](https://github.com/jlongyam/repo-template)
+# [detect](https://github.com/jlongyam/detect)
 
-My repository template
+Various of library detector
 
 ## Project Info
 

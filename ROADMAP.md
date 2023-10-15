@@ -2,5 +2,5 @@
 
 ## Initial
  
-- [ ] Last
-- [x] First
+- [ ] JS detect.browser
+- [x] JS detect.type
