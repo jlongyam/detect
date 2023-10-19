@@ -2,7 +2,5 @@
 
 Various of library detector
 
-## Project Info
-
-- [roadmap](ROADMAP.md)
-- [contributing](CONTRIBUTING.md)
+- [OK] detect online, with http|s mode
+- [OK] detect type
