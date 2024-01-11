@@ -26,5 +26,8 @@ function $include(input) {
 $require = $include
 //
 $include.path = '../'
-$require('detect.js')
+$require([
+  'engine.js',
+  'type.js'
+])
 console.log(runTest())
